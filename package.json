@@ -1,0 +1,38 @@
+{
+  "name": "direct-market-farmers",
+  "version": "1.0.0",
+  "description": "Direct Market Access Platform for Farmers",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "db:seed": "node scripts/seed.js"
+  },
+  "dependencies": {
+  "next": "^14.0.0",
+  "react": "^18.2.0",
+  "react-dom": "^18.2.0",
+  "mongoose": "^7.5.0",
+  "jsonwebtoken": "^9.0.0",
+  "bcryptjs": "^2.4.3",
+  "axios": "^1.5.0",
+  "react-hook-form": "^7.45.0",
+  "react-icons": "^4.12.0",
+  "framer-motion": "^10.16.0",
+  "recharts": "^2.8.0",
+  "zustand": "^4.4.0",
+  "nodemailer": "^6.9.7"
+},
+  "devDependencies": {
+    "tailwindcss": "^3.3.0",
+    "postcss": "^8.4.0",
+    "autoprefixer": "^10.4.0",
+    "typescript": "^5.2.0",
+    "@types/node": "^20.5.0",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "eslint": "^8.50.0",
+    "eslint-config-next": "^14.0.0"
+  }
+}
